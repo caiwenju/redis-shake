@@ -1,0 +1,14 @@
+[sync_reader]
+address = "192.168.0.17:26379"
+username = ""
+password = "Redis#2022@Cms"
+tls = false
+sync_rdb = true
+sync_aof = true
+
+
+[redis_writer]
+address = "192.168.0.17:6080"
+username = ""
+password = "Redis#2022@Cms"
+tls = false

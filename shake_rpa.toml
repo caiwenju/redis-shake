@@ -1,0 +1,14 @@
+[sync_reader]
+address = "192.168.0.17:6379"
+username = ""
+password = "rpa"
+tls = false
+sync_rdb = true
+sync_aof = true
+
+
+[redis_writer]
+address = "192.168.0.17:6082"
+username = ""
+password = "rpa"
+tls = false
