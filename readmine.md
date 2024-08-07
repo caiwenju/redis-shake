@@ -5,3 +5,6 @@ https://tair-opensource.github.io/RedisShake/zh/reader/scan_reader.html
 127.0.0.1:6379> info keyspace
 # Keyspace
 db0:keys=4463175,expires=2,avg_ttl=333486
+
+# 同步方式
+./redis-shake xxx.toml
